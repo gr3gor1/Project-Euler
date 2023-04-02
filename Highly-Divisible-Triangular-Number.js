@@ -23,6 +23,8 @@ divisibleTriangleNumber(167) should return 1385280.
 divisibleTriangleNumber(374) should return 17907120.
 divisibleTriangleNumber(500) should return 76576500.
 */
+
+
 //get the factors of the triangle number
 function fact(n) {
     let factors = [];
