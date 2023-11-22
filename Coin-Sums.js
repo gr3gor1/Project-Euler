@@ -19,7 +19,7 @@ function coinSums(n) {
     for(let i=0; i<money.length; i++){
       //compute the combinations to reach a specific index
         for(let j=money[i]; j<=n; j++){
-        array[j] += array[j-money[i]]
+          array[j] += array[j-money[i]]
       }
     }
     //get the combinations of nth index in the array

@@ -1,5 +1,5 @@
 /*
-Description: et d(n) be defined as the sum of proper divisors of n 
+Description: let d(n) be defined as the sum of proper divisors of n 
 (numbers less than n which divide evenly into n). If d(a) = b and d(b) = a, 
 where a ≠ b, then a and b are an amicable pair and each of a and b are called 
 amicable numbers. For example, the proper divisors of 220 are 1, 2, 4, 5, 10, 
@@ -13,8 +13,8 @@ function properDivisorsSum(num) {
     //find all the possible divisors
     for (let i = 1; i <= num/2; i++) {
         if (num % i === 0) {
-        //sum them
-        sum += i;
+            //sum them
+            sum += i;
         }
     }
     return sum;
